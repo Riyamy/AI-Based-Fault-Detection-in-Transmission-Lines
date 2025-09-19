@@ -1,6 +1,6 @@
-# ----------------------------
-# OS / Editor specific files
-# ----------------------------
+
+
+
 # Windows
 Thumbs.db
 Desktop.ini
@@ -12,17 +12,16 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 
-# Linux
-*~
+
 
 # VSCode / IDEs
 .vscode/
 .idea/
 *.swp
 
-# ----------------------------
+
 # Python
-# ----------------------------
+
 __pycache__/
 *.py[cod]
 *.pyo
@@ -42,9 +41,8 @@ venv/
 # Logs
 *.log
 
-# ----------------------------
 # MATLAB
-# ----------------------------
+
 *.asv
 *.mex*
 *.mat~
@@ -55,9 +53,9 @@ venv/
 *.bak
 *.tmp
 
-# ----------------------------
+
 # Project specific
-# ----------------------------
+
 # Ignore raw simulation data if too big
 # (uncomment if you don’t want .mat files in GitHub)
 # data/raw/
