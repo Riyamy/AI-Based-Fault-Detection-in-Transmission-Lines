@@ -1,36 +1,38 @@
-# ⚡ AI-Based Fault Detection in Transmission Lines
+# AI-Based Fault Detection in Transmission Lines
 
-This project integrates **MATLAB/Simulink simulations**, **signal processing (FFT & Wavelet)**, and **AI models** for automated fault detection in transmission lines.
+This project applies **MATLAB/Simulink** and **Machine Learning** for detecting and classifying faults in transmission lines.  
+It combines **signal processing (FFT & Wavelet)** with **ML models** to build a predictive maintenance solution.
 
-## 🚀 Features
-- Synthetic dataset generation using MATLAB/Simulink
-- FFT & Wavelet transforms for feature extraction
-- ML models: Random Forest, SVM, Neural Network
-- End-to-end automated fault detection pipeline
-- Achieved **>99% classification accuracy**
 
-## 🛠 Tech Stack
-- MATLAB/Simulink
-- Python (NumPy, Pandas, Scikit-learn, TensorFlow/Keras)
-- Signal Processing: FFT, PyWavelets
-- Visualization: Matplotlib, Seaborn
 
-## 📂 How to Run
-1. Run MATLAB script to simulate and export fault data:
-   ```bash
-   matlab -batch "run('matlab_simulation/fault_simulation.m')"
-   ```
-2. Preprocess & extract features:
-   ```bash
-   python preprocessing/fft_wavelet_features.py
-   ```
-3. Train ML models:
-   ```bash
-   python models/train_models.py
-   ```
-4. Run AI pipeline:
-   ```bash
-   python pipeline/fault_detection_pipeline.py
-   ```
+## Objectives
+- Simulate transmission line faults using MATLAB/Simulink.  
+- Generate a synthetic dataset of different fault types.  
+- Extract features using FFT and Wavelet transforms.  
+- Train ML models (Random Forest, SVM, Neural Networks).  
+- Build a simple AI pipeline for automated fault detection.  
+
+
+
+## Tools & Technologies
+- **MATLAB/Simulink** – fault signal generation  
+- **Python (Scikit-learn, Pandas, NumPy)** – ML modeling  
+- **FFT, Wavelet** – feature extraction  
+- **Matplotlib, Seaborn** – visualization  
 
 ---
+
+## How to Run
+1. Generate fault signals in MATLAB and save as `.mat` files in `data/raw/`.  
+2. Extract features:  
+   ```bash
+   python preprocessing/prepare_features.py
+
+## Results
+
+1. >99% classification accuracy
+
+2. Early fault detection for predictive maintenance
+
+3. Reliable system for power transmission monitoring
+   
