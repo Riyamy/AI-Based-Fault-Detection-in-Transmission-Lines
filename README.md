@@ -25,11 +25,11 @@ It combines **signal processing (FFT & Wavelet)** with **ML models** to build a 
 ## How to Run
 1. Generate fault signals in MATLAB and save as `.mat` files in `data/raw/`.  
 2. Extract features:  
-   python preprocessing/prepare_features.py
+   'python preprocessing/prepare_features.py'
 3. Train Model:
-   python models/train_and_evaluate.py
+  'python models/train_and_evaluate.py'
 4. Run inference on new signals:
-   python pipeline/infer.py
+   'python pipeline/infer.py'
 
 
 
