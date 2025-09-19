@@ -20,13 +20,18 @@ It combines **signal processing (FFT & Wavelet)** with **ML models** to build a 
 - **FFT, Wavelet** – feature extraction  
 - **Matplotlib, Seaborn** – visualization  
 
----
+
 
 ## How to Run
 1. Generate fault signals in MATLAB and save as `.mat` files in `data/raw/`.  
 2. Extract features:  
-   ```bash
    python preprocessing/prepare_features.py
+3. Train Model:
+   python models/train_and_evaluate.py
+4. Run inference on new signals:
+   python pipeline/infer.py
+
+
 
 ## Results
 
