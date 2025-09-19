@@ -24,19 +24,19 @@ It combines **signal processing (FFT & Wavelet)** with **ML models** to build a 
 
 ## How to Run & Results
 ```bash
-# 1. Generate fault signals in MATLAB and save as .mat files in data/raw/
+1. Generate fault signals in MATLAB and save as .mat files in data/raw/
 
-# 2. Extract features
+2. Extract features
 python preprocessing/prepare_features.py
 
-# 3. Train model
+3. Train model
 python models/train_and_evaluate.py
 
-# 4. Run inference on new signals
+4. Run inference on new signals
 python pipeline/infer.py
 
 
-# ✅ Results
-# - >99% classification accuracy
-# - Early fault detection for predictive maintenance
-# - Reliable system for power transmission monitoring
+✅ Results
+ - >99% classification accuracy
+ - Early fault detection for predictive maintenance
+ - Reliable system for power transmission monitoring
